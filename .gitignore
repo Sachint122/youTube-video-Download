@@ -1,1 +1,20 @@
-"node_modules/" 
+# Ignore log files
+*.log
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build outputs
+/dist/
+
+# Ignore all `.env` files
+*.env
+
+# Ignore a specific file
+secret-config.json
+
+# Ignore everything in a folder
+temp/
+
+# Do not ignore a specific file in a folder
+!temp/important-file.txt
